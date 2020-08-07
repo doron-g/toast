@@ -1,3 +1,4 @@
 $(document).ready(function (){
-    $(".toast").toast()
+    const toaster =  $(".toast").toast()
+       toaster.toast("show")
 })
